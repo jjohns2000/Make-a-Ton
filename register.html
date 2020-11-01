@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  
+  background-image: url("frontpage1.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page_name{
+    position: relative;
+    top: 50px;
+    color:  rgb(231, 231, 37);
+    font-size: 80px;
+}
+.jumbotron{
+    border-radius: 100px;
+    position: relative;
+    top: 20px;
+    width: 400px;
+    left: 30%;
+    opacity: 0.8;
+    background-color: rgb(255, 255, 255);
+}
+
+</style>
+</head>
+<body class="bg">
+    <h1 class="page_name">Notes<b>Cloud</b></h1>
+    <div class="container">
+        <div class="jumbotron">
+            <form>
+                <div class="form-group">
+                    <label >Name</label>
+                    <input type="text" class="form-control" >  
+                    <label >Email</label>
+                    <input type="text" class="form-control" >
+                    <label >College</label>
+                    <input type="text" class="form-control" >
+                    <label>Password</label>
+                    <input type="password" class="form-control" >
+                </div>
+                
+                <button style="background-color: rgb(231, 231, 37);" type="submit" class="btn btn-primary"><a href="login.html">Register</a></button>
+              </form>
+        </div>
+    </div>
+    
+</body>
+</html>
